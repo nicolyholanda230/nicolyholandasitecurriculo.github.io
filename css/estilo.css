@@ -1,0 +1,412 @@
+/* Formatação Geral */
+body{
+
+     font-family: Jost, sans-serif;
+}
+
+h1, h2, h3{
+
+	margin: 0;
+	font-family: Jost, sans-serif;
+	font-weight: 700;
+
+}
+
+p{
+	font-family: Jost, sans-serif;
+
+
+}
+.container{
+	width: 100%;
+}
+
+/* Cabeçalho ou Barra de Navegação */
+
+
+.logo img{
+
+	border-radius: 50%;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #1C1C1C;
+	padding: 25px;
+
+
+}
+
+nav ul{
+
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+
+
+
+}
+
+nav ul li{
+
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	padding: 2
+
+}	
+
+
+nav ul li a{
+
+	display: inline-block;
+	padding: 10px  0;
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+
+}
+
+/* Header */
+
+header{
+
+	background-image: url('../imgs/piano.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 1.7em;
+}
+
+.botao{
+
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #1C1C1C;
+	font-size: .9em;
+	border-radius: 5%;
+
+}
+
+/* Sobre */
+
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #1C1C1C;
+	color: #fff;
+}
+
+#sobre h2{
+
+	margin-top: 20px;
+	font-size: 2em;
+}
+.foto img{
+	width: 60%
+}
+.foto{
+	float: right;
+	width: 50%;
+}
+.texto{
+	float: left;
+	width: 50%;
+}
+/*Especialidades*/
+
+#especialidades{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0	auto;
+}
+
+#especialidades{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#especialidades p{
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.2em;
+}
+#especialidades img{
+	margin:10px 0;
+}
+#especialidades h2{
+	font-size: 2em;
+}
+
+/*Competencias*/
+#competencias{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#competencias h2{
+	font-size: 2em;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-align: center;
+}
+#competencias h3, p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+#competencias p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+#competencias a{
+	text-decoration: none;
+}
+#competencias img{
+	width: 25%;
+	margin-bottom: 0;
+	align-items: center;
+}
+#competencias .comp p{
+	border-left:2px solid black;
+	border-right:2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 0%;
+	margin-top: 0;
+	font-family: ""
+	padding-right:15px;
+	padding-left: 15px;
+	line-height: 1.5;
+
+}
+
+.trab img:hover{
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.trab img{
+	border:3px groove #1f1f1f;
+}
+/*hobby*/
+#hobby{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+}
+
+#hobby h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+
+
+.hobby {
+	width: 80%;
+	align-items: center;
+	text-align: center;
+}
+
+l
+.hobby h3{
+	font-size: 1.0em;
+	margin-top: 30px;
+	margin-bottom: 14px;
+}
+
+/*Contato*/
+
+#Contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #1f1f1f;
+	width: 100%;
+}
+
+#Contato h2{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	font-size: 1.5em;
+	text-align: center;
+	color: #ffff;
+}
+
+#Contato > p{
+	color: #ffff;
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#Contato a{
+	text-decoration: none;
+	color: #ffff;
+	font-family: "Arial", sans-serif;
+	text-align: center;
+
+}
+
+/*footer*/
+
+footer {
+	text-align: center;
+	width: 100%;
+	background-color: #ffff;
+	color: #1f1f1f;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+@media screen and (min-width: 778px){
+
+/* Cabeçalho ou Barra de Navegação */
+
+nav{
+
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+nav ul{
+
+	flex-direction: row;
+	width: 70%;
+}
+/* Header */
+header{
+	height: 60vh;
+	justify-content: center;
+}
+
+/* Sobre*/
+	
+	#sobre{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		height: 90vh;
+		justify-content: center;
+		min-height: 80vh;
+
+	}
+
+	#sobre h2{
+		text-align: center;
+		width: 100%;
+	}
+
+	#sobre{
+		flex-grow: 1;
+		flex-basis: 300px;
+		padding: 0 10px;
+	}
+
+	/*Especialidades*/
+	#especialidades{
+			flex-direction: row;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			max-width: 1000px;
+			margin: 0 auto; 
+	}
+
+	#especialidades h2{
+		text-align: center;
+		width: 100%;
+	}
+	#especialidades div{
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+
+	/*competencias*/
+
+#competencias{
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#competencias h2, h3{
+	width: 100%;
+	text-align: center;
+}
+
+#competencias .comp{
+	width: 33.3333333333%;
+	text-align: center;
+
+}
+
+/*CONTATO*/
+#Contato{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 40vh;
+	width: 100%;
+
+}
+
+#Contato h2,
+#Contato p{
+	width: 100%;
+	text-align: center;
+}
+
+
+}
+
+iframe{
+	text-align: center;
+	width: 60%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
